@@ -6,8 +6,9 @@ function calculateArea(){
     width=parseFloat(document.getElementById('width').value);
 
     let area = length * width;
+    // console.log("Area:", area); 
 
-    document.getElementById('result').innerText = `The area of rectange is ${a}`;
+    document.getElementById('result').innerText = `The area of rectange is ${area}`;
 
 }
 
